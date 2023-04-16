@@ -1,4 +1,4 @@
-package com.example.ctc;
+package qc.ca.colval.ctc;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

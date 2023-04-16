@@ -1,4 +1,4 @@
-package com.example.gtc;
+package qc.ca.colval.gtc;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

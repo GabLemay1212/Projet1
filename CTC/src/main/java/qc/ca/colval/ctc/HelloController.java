@@ -1,4 +1,4 @@
-package com.example.qtc;
+package qc.ca.colval.ctc;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

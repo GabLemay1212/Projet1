@@ -3,6 +3,6 @@ module com.example.qtc {
     requires javafx.fxml;
 
 
-    opens com.example.qtc to javafx.fxml;
-    exports com.example.qtc;
+    opens qc.ca.colval.qtc to javafx.fxml;
+    exports qc.ca.colval.qtc;
 }

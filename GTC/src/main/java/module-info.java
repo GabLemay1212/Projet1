@@ -3,6 +3,6 @@ module com.example.gtc {
     requires javafx.fxml;
             
                             
-    opens com.example.gtc to javafx.fxml;
-    exports com.example.gtc;
+    opens qc.ca.colval.gtc to javafx.fxml;
+    exports qc.ca.colval.gtc;
 }
