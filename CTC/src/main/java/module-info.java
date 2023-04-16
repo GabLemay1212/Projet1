@@ -5,4 +5,6 @@ module com.example.ctc {
 
     opens qc.ca.colval.ctc to javafx.fxml;
     exports qc.ca.colval.ctc;
+    exports qc.ca.colval.ctc.FEL;
+    opens qc.ca.colval.ctc.FEL to javafx.fxml;
 }

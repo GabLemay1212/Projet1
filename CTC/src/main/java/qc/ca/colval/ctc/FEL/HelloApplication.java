@@ -1,4 +1,4 @@
-package qc.ca.colval.gtc;
+package qc.ca.colval.ctc.FEL;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

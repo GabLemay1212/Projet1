@@ -5,4 +5,6 @@ module com.example.qtc {
 
     opens qc.ca.colval.qtc to javafx.fxml;
     exports qc.ca.colval.qtc;
+    exports qc.ca.colval.qtc.FEL;
+    opens qc.ca.colval.qtc.FEL to javafx.fxml;
 }
