@@ -1,24 +1,27 @@
 package qc.ca.colval.ctc.BLL.control;
 
 public class CanadaTaxCalculator {
-    float Taxes;
+    double Taxes;
 
-    public float CTCalculator(float taxes) {
+    public double CTCalculator(double taxes) {
 
-        if (taxes <= 46295) {
+        if (taxes <= 49020) {
             Taxes = (taxes/100)*15;
         }
-        if (taxes <= 92580) {
-            Taxes = (46295/100)*15 + (taxes-46295/100*20);
+        if (taxes <= 98040) {
+            Taxes = (49020/100)*15 + (taxes-49020/100*20.5);
         }
-        if (taxes <= 112655) {
-            Taxes = (46295/100)*15 + (92580-46295/100*20) + (taxes-92580/100*24);
+        if (taxes <= 151978) {
+            Taxes = (49020/100)*15 + (98040-49020/100*20.5) + (taxes-98040/100*26);
         }
-        if (taxes > 112655) {
-            Taxes = (float) ((46295/100)*15 + (92580-46295/100*20) + (112655-92580/100*24) + (taxes-112655/100*25.75));
+        if (taxes <= 216511) {
+            Taxes = ((49020/100)*15 + (98040-46295/100*20.5) + (151978-98040/100*26) + (taxes-151978/100*29));
+        }
+        if (taxes > 216511) {
+            Taxes = ((49020/100)*15 + (98040-46295/100*20.5) + (151978-98040/100*26) + (216511-151978/100*29) + (taxes-216511/100*33));
         }
 
         return Taxes;
-    };
+    }
 }
 
