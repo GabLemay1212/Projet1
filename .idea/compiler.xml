@@ -6,13 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CanadaTaxController" />
+        <module name="QuebecTaxController" />
         <module name="QTC" />
         <module name="CTC" />
+        <module name="GlobalTaxController" />
         <module name="GTC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CanadaTaxController" target="17" />
       <module name="Projet1" target="18" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CanadaTaxController" options="-parameters" />
+      <module name="GlobalTaxController" options="-parameters" />
+      <module name="QuebecTaxController" options="-parameters" />
+    </option>
   </component>
 </project>

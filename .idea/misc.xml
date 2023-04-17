@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/CTC/pom.xml" />
         <option value="$PROJECT_DIR$/QTC/pom.xml" />
         <option value="$PROJECT_DIR$/GTC/pom.xml" />
+        <option value="$PROJECT_DIR$/CTC/CanadaTaxController/pom.xml" />
+        <option value="$PROJECT_DIR$/QuebecTaxController/pom.xml" />
+        <option value="$PROJECT_DIR$/GlobalTaxController/pom.xml" />
       </list>
     </option>
   </component>
